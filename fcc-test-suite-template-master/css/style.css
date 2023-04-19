@@ -1,0 +1,19 @@
+
+nav ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+nav li{
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    color:brown;
+}
+@media  screen and (max-width:400px) {
+    nav ul{
+        background-color: darkgray;
+    }
+}
